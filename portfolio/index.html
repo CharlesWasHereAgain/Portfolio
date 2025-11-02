@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Charles — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Xen</a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-controls">
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle menu">☰</button>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <!-- text left -->
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I’m <span class="accent">Charles</span></h1>
+        <p class="hero-role"><strong>Computer Science Student</strong></p>
+
+        <p class="hero-lead">
+          I’m a passionate and driven <strong>21-year-old Computer Science student</strong>, eager to dive into the dynamic fields of Cyber Security and Software Development.
+        </p>
+        <p class="hero-lead">
+          With a strong foundation in programming and a keen interest in technology, I am dedicated to <strong>expanding my knowledge and gaining hands-on experience in the industry</strong>.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" href="assets/Charles_CV.pdf" download>📄 Curriculum Vitae</a>
+          <a class="btn outline" href="https://courageous-cyclamen-f3c.notion.site/Portfolio-f9c2dc7537ca4c5a89da4e44cd5c198e" target="_blank" rel="noopener">🔗 View Notion</a>
+        </div>
+      </div>
+
+      <!-- image right -->
+      <div class="hero-photo-wrap" aria-hidden="false">
+        <img class="hero-photo" src="assets/Charles%20Profile.png" alt="Charles profile photo">
+        <img class="hero-drawing" src="assets/drawing.png" alt="Drawing portrait">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="about-paragraph">
+          I’m a passionate and driven <strong>21-year-old Computer Science student</strong>, eager to dive into the dynamic fields of Cyber Security and Software Development.
+          With a strong foundation in programming and a keen interest in technology, I am dedicated to <strong>expanding my knowledge and gaining hands-on experience in the industry</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>LAGUNA STATE POLYTECHNIC UNIVERSITY - LOS BAÑOS</h3>
+            <p><strong>Bachelor of Science in Computer Science</strong></p>
+            <p class="muted">2023 - Current</p>
+          </div>
+          <div class="card">
+            <h3>LOS BAÑOS SENIOR HIGH SCHOOL</h3>
+            <p><strong>Science, Technology, Engineering and Mathematics (STEM)</strong></p>
+            <p class="muted">2021 - 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+      <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills & Roles</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Technical Skills</h3>
+            <div class="pill-wrap">
+              <span class="pill">HTML / CSS</span>
+              <span class="pill">Python</span>
+              <span class="pill">C#</span>
+            </div>
+
+            <h4 style="margin-top:14px">Tools</h4>
+            <div class="skills-logos">
+              <img class="skill-logo" src="assets/capcut.png" alt="CapCut" onerror="this.style.display='none'">
+              <img class="skill-logo" src="assets/canva.png" alt="Canva" onerror="this.style.display='none'">
+              <img class="skill-logo" src="assets/figma.png" alt="Figma" onerror="this.style.display='none'">
+              <img class="skill-logo" src="assets/davinci.png" alt="DaVinci Resolve" onerror="this.style.display='none'">
+              <img class="skill-logo" src="assets/photoshop.png" alt="Photoshop" onerror="this.style.display='none'">
+              <img class="skill-logo" src="assets/lightroom.png" alt="Lightroom" onerror="this.style.display='none'">
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Professional & Creative Roles</h3>
+            <ul class="roles-list">
+              <li>Social Media Manager</li>
+              <li>Graphic Designer</li>
+              <li>Social Media Planner</li>
+              <li>Video Editor</li>
+            </ul>
+
+            <h4 style="margin-top:12px">Achievements</h4>
+            <ul class="achievements">
+              <li>Managing online presence for esports organization and guitar brands</li>
+              <li>Execution of branding, campaign planning, and engagement strategy</li>
+              <li>Editing and design work across multiple media formats (thumbnails, short videos, posters)</li>
+            </ul>
+
+            <div class="brand-logos">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/sealevel.png" alt="Sea Level Predictor">
+            <h3>Sea Level Predictor</h3>
+            <p>Environmental data model predicting sea-level changes using Python and data visualization techniques.</p>
+            <a class="project-link" href="https://courageous-cyclamen-f3c.notion.site/Portfolio-f9c2dc7537ca4c5a89da4e44cd5c198e?p=9b7ecd688568489a8ab01a7a545658ea&pm=c" target="_blank" rel="noopener">Explore on Notion →</a>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/medical.png" alt="Medical Data Visualizer">
+            <h3>Medical Data Visualizer</h3>
+            <p>Interactive visuals and dashboards for medical datasets to aid exploratory analysis and reporting.</p>
+            <a class="project-link" href="https://courageous-cyclamen-f3c.notion.site/Portfolio-f9c2dc7537ca4c5a89da4e44cd5c198e?p=b8c8dfa8185e4a11b37f5850058a62bb&pm=c" target="_blank" rel="noopener">Explore on Notion →</a>
+          </article>
+
+          <article class="project-card project-gallery">
+            <div class="carousel-container" aria-hidden="false">
+              <div class="carousel-track">
+                <img class="carousel-slide active" src="assets/graphics1.png" alt="Graphics sample 1">
+                <img class="carousel-slide" src="assets/graphics2.png" alt="Graphics sample 2">
+                <img class="carousel-slide" src="assets/graphics3.png" alt="Graphics sample 3">
+                <img class="carousel-slide" src="assets/graphics4.png" alt="Graphics sample 4">
+              </div>
+              <button class="carousel-prev" aria-label="Previous">❮</button>
+              <button class="carousel-next" aria-label="Next">❯</button>
+            </div>
+            <h3>Graphics & Layouts</h3>
+            <p>Curated design samples — one image at a time. Use arrows or let it autoplay. Visit Notion for full gallery & details.</p>
+            <a class="project-link" href="https://courageous-cyclamen-f3c.notion.site/Portfolio-f9c2dc7537ca4c5a89da4e44cd5c198e?p=1ab91f7eaeda80968c1ac4eae35b2253&pm=c" target="_blank" rel="noopener">Explore on Notion →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE (Separate Cards incl. Hozen / Maestro / Lures) -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="exp-grid">
+          <!-- Moonton -->
+          <div class="exp-card">
+            <h3>Moonton Student Ambassador</h3>
+            <p><strong>Moonton - School Initiative (2024 – Current)</strong></p>
+            <ul>
+              <li>Collaborate with peers to promote Moonton’s gaming events on campus, increasing student participation.</li>
+              <li>Assist in organizing tournaments and workshops; troubleshoot livestream setups and technical issues.</li>
+            </ul>
+          </div>
+
+          <!-- Legion of Lures -->
+          <div class="exp-card">
+            <h3>Vice President — Legion of Lures Esports</h3>
+            <p><strong>Legion of Lures Esports</strong></p>
+            <p>Roles: Social Media Manager, Graphic Designer, Social Media Planner, Video Editor</p>
+            <p>FB Page: <a href="https://www.facebook.com/charlesamiel.malabanan" target="_blank" rel="noopener">facebook.com/charlesamiel.malabanan</a></p>
+          </div>
+
+          <!-- Hozen Guitars -->
+          <div class="exp-card">
+            <h3>Hozen Guitars (Client Work)</h3>
+            <p><strong>Social Media / Content</strong></p>
+            <ul>
+              <li>Social Media Manager & Content Creator — <a href="https://www.hozenguitars.com" target="_blank" rel="noopener">Hozen Guitars (Shopify)</a></li>
+              <li>Video editing and thumbnail design for product promos and tutorials.</li>
+            </ul>
+            <div class="exp-logos">
+              <img class="experience-logo" src="assets/hozen-logo.png" alt="Hozen logo" onerror="this.style.display='none'">
+            </div>
+          </div>
+
+          <!-- Maestro -->
+          <div class="exp-card">
+            <h3>Maestro Guitars (Client Work)</h3>
+            <p><strong>Video Editing & Content</strong></p>
+            <ul>
+              <li>Video Editor / Thumbnail Designer — <a href="https://www.youtube.com/@hozenguitars" target="_blank" rel="noopener">Hozen YT</a>, <a href="https://www.youtube.com/@maestroguitarssg" target="_blank" rel="noopener">Maestro YT</a></li>
+            </ul>
+            <div class="exp-logos">
+              <img class="experience-logo" src="assets/maestro-logo.png" alt="Maestro logo" onerror="this.style.display='none'">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section alt">
+      <div class="container">
+        <h2>Python Certifications</h2>
+        <p>My FreeCodeCamp / Python certifications are listed on Notion. Click below to view them.</p>
+        <a class="logo" href="https://courageous-cyclamen-f3c.notion.site/Portfolio-f9c2dc7537ca4c5a89da4e44cd5c198e" target="_blank" rel="noopener">View Certificates on Notion</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Email</h4>
+            <p><a href="mailto:malabanancharlesamiel@gmail.com">malabanancharlesamiel@gmail.com</a></p>
+          </div>
+          <div class="contact-card">
+            <h4>Phone</h4>
+            <p>+63 967 286 5133</p>
+          </div>
+          <div class="contact-card">
+            <h4>Facebook</h4>
+            <p><a href="https://www.facebook.com/charlesamiel.malabanan" target="_blank" rel="noopener">facebook.com/charlesamiel.malabanan</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Charles — All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
